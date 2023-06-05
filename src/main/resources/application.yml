@@ -1,0 +1,21 @@
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/e-com
+    username: e-com
+    password: e-com
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
+    org.springframework.web: INFO
+
+spring.jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
+
